@@ -1,0 +1,11 @@
+{
+  "connections": {
+    "mongodb": {
+      "host": "env('DB_HOST', 'localhost')",
+      "port": "env('DB_PORT', ' ')",
+      "database": "env('DB_DATABASE', 'develandoo')",
+      "user": "env('DB_USERNAME', '')",
+      "password": "env('DB_PASSWORD', '')"
+    }
+  }
+}

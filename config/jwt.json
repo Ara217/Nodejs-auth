@@ -1,0 +1,6 @@
+{
+  "secret": "env('DB_HOST', 'secret')",
+  "jwtSession": {
+    "session": false
+  }
+}
